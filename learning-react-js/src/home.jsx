@@ -2,6 +2,9 @@ import React from "react";
 import { Box, Typography, Button, TextField } from "@mui/material";
 import Navbar  from './compnents/Navbar';
 import Footer from './compnents/Footer';
+import Tour from './Tour';
+import Container from "@mui/material/Container";
+import Grid from "@mui/material/Grid";
 
 function Home(){
          
@@ -23,7 +26,9 @@ function Home(){
                <TextField label="Password" variant="outlined" fullWidth required/>
                <Button variant="contained" color="primary" size="large">Login</Button>
             </Box>
+            
             </div>
+           
             <Footer />
             </>
          );
